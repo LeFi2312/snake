@@ -1,0 +1,39 @@
+/* basic reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 1rem;
+    background: #000;
+}
+
+.container{
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0px 10px 30px rgba(60, 60, 60, 0.1);
+    width: 100%;
+    max-width: 600px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: auto;
+}
+
+#start-menue{
+    margin-bottom: 30px;
+}
+
+.mickey-btn{
+    background-color: white;
+    border: 2px solid #000;
+    border-radius: 110px;
+    padding: 1rem;
+    cursor: pointer;
+    text-align: left;
+    transition: all 0.3s ease;
+}
